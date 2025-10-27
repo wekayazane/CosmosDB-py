@@ -1,6 +1,5 @@
 from azure.cosmos import CosmosClient, PartitionKey
 
-
 client = CosmosClient(
     url="https://localhost:8081",
     credential=(
